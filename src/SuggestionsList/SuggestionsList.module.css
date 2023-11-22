@@ -1,0 +1,35 @@
+.suggestionList {
+  position: absolute;
+  width: 100%;
+  padding: 4px 0;
+  margin: -1px 0 0 0;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 6px rgba(32, 33, 36, .3);
+}
+
+.suggestionItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 6px 0 6px 40px;
+}
+
+.suggestionItem__viewed {
+  color: purple;
+}
+
+.suggestionItem:hover,
+.suggestionItem__highlighted {
+  background-color: #eee;
+}
+
+.remove {
+  position: absolute;
+  right: 16px;
+  z-index: 3;
+  padding: 3px;
+  font-size: 10px;
+  color: #70757a;
+}

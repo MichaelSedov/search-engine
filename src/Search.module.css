@@ -1,0 +1,44 @@
+.search {
+  width: 500px;
+  position: relative;
+}
+
+.inputControl {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  height: 40px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  overflow: hidden;
+}
+
+.inputControl__active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input {
+  width: calc(100% - 40px);
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.inputControl:hover,
+.inputControl:focus-within {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+  border-color: rgba(223, 225, 229, 0);
+  border: 1px solid transparent;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 16px;
+}
+
+.closeIcon {
+  cursor: pointer;
+  padding: 3px;
+}
