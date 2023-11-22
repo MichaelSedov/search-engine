@@ -7,8 +7,8 @@ import useAutocomplete from './hooks/useAutocomplete';
 
 import { localDB } from './mockDB'
 import { SearchItem, SearchResult } from './types';
-import SearchIcon from './SearchIcon.svg';
-import CloseIcon from './CloseIcon.svg';
+import SearchIcon from './assets/icons/SearchIcon.svg';
+import CloseIcon from './assets/icons/CloseIcon.svg';
 
 import classNames from './Search.module.css'
 
